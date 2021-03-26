@@ -1,7 +1,7 @@
 // src/index.js
 
 import React from "react";
-import ReactDom from "react-dom";
+import ReactDOM from "react-dom";
 import "./index.css";
 
 // add the following code below this line
@@ -18,4 +18,4 @@ class App extends React.Component {
 
 // add the following code below this line
 
-ReactDom.render(<App />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"));
